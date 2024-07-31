@@ -14,7 +14,6 @@ dependencies:
   http:
   injectable:
   json_annotation: ^4.9.0
-  json_serializable:
   weather_icons:
 
 dev_dependencies:

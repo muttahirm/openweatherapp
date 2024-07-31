@@ -1,2 +1,2 @@
-export 'repositories_impl/repositories_impl.dart';
+export 'repositories_impl/repository_implementations.dart';
 export 'services/services.dart';
