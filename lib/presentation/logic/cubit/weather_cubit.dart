@@ -42,12 +42,6 @@ class WeatherCubit extends Cubit<WeatherState> {
       int humidity = response.list![0].main.humidity;
       int pressure = response.list![0].main.pressure;
       double wind = response.list![0].wind.speed;
-      // storable data
-      //Shared Preference
-      // Hive singleton instance(),
-      //call the instance of the new database
-      // migrate data from hive to newDB
-      // delete hive instance
 
       list = [];
       for (int index = 8; index < response.list!.length; index += 8) {

@@ -32,7 +32,6 @@ class MyApp extends StatelessWidget {
         ),
         child: const WeatherScreen(),
       ),
-      // home: const WeatherScreen(),
     );
   }
 }
